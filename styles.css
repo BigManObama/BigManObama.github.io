@@ -86,7 +86,6 @@ p {
 }
 
 .hotspot[slot="hotspot-hand"]{
-    --min-hotspot-opacity: 0;
     background-color: red;
 }
 
