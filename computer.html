@@ -24,22 +24,59 @@
     </div>
 
     <div class="main">
-        <section class="thinkpad-info">
+        <section>
             <model-viewer class="view"
             alt="laptop model" 
             src="images/glb/laptop final.glb" 
             shadow-intensity="2" 
             camera-controls touch-action="pan-y">
-                <button class="hotspot" slot="hotspot-red" data-position="0.20 0.06 0.055"></button> <!--Disk lazer -->
+                <button class="hotspot" slot="hotspot-red" data-position="0.21 0.06 0.011">
+                    <div class="annotation">Spindle Platter</div>
+                </button> <!-- Spindle Platter -->
+                <button class="hotspot" slot="hotspot-red2" data-position="0.24 0.06 0.015">
+                    <div class="annotation">Laser Pick Up</div>
+                </button> <!-- Spindle Platter -->
                 
-                <button class="hotspot" slot="hotspot-blue" data-position="0.08 0.30 -0.15"></button> <!--screen -->
-                
-                <button class="hotspot" slot="hotspot-yellow" data-position="0 0.15 0.03"></button> <!--piss clicker -->
+                <button class="hotspot" slot="hotspot-yellow" data-position="-0.1 0.08 0.08">
+                    <div class="annotation">CPU</div>
+                </button> <!--piss clicker -->
+                <button class="hotspot" slot="hotspot-yellow2" data-position="-0.035 0.08 0.0">
+                    <div class="annotation">Wireless</div>
+                </button> <!--piss clicker -->
+                <button class="hotspot" slot="hotspot-yellow3" data-position="-0.015 0.08 0.04">
+                    <div class="annotation">RAM</div>
+                </button> <!--piss clicker -->
 
-                <button class="hotspot" slot="hotspot-pink" data-position="-0.20 0.052 0.183"></button> <!--Sold State Drive -->
+                <button class="hotspot" slot="hotspot-pink" data-position="-0.19 0.052 0.193">
+                    <div class="annotation">Solid State Drive</div>
+                </button> <!-- Sold State Drive -->
 
-                <button class="hotspot" slot="hotspot-white" data-position="0 0.12 0.10"></button> <!--piss clicker -->
-                </button>
+                <button class="hotspot" slot="hotspot-white" data-position="0.032 0.105 0.113">
+                    <div class="annotation">Touch Pad Sensor</div>
+                </button> <!-- Touch Pad Sensor -->
+
+
+
+
+                <button class="hotspot" slot="hotspot-blue" data-position="0.06 0.344 -0.15">
+                    <div class="annotation">LCD Pannel</div>
+                </button> <!-- LCD Pannel -->
+                <button class="hotspot" slot="hotspot-lightblue" data-position="0.075 0.315 -0.15">
+                    <div class="annotation">Diffuser</div>
+                </button> <!-- LCD Pannel -->
+                <button class="hotspot" slot="hotspot-teal2" data-position="0.072 0.29 -0.15">
+                    <div class="annotation">Prism</div>
+                </button> <!-- LCD Pannel -->
+                <button class="hotspot" slot="hotspot-teal" data-position="0.062 0.27 -0.15">
+                    <div class="annotation">Diffuser</div>
+                </button> <!-- LCD Pannel -->
+                <button class="hotspot" slot="hotspot-greenyellow" data-position="0.047 0.25 -0.146">
+                    <div class="annotation">Polarizer</div>
+                </button> <!-- LCD Pannel -->
+                <button class="hotspot" slot="hotspot-green" data-position="0.02 0.235 -0.137">
+                    <div class="annotation">Light Guide Plate</div>
+                </button> <!-- LCD Pannel -->
+
             </model-viewer>
         </section>
     </div>
