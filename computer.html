@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icon/favicon-16x16.png">
+    <link rel="manifest" href="images/icon/site.webmanifest">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>ThinkPad - Infographic</title>
+</head>
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+
+<body>
+    <div class="navbar">
+        <img class="logo" src="images/ThinkPad_Tilted.webp" alt="Logo" width="100">
+        <div class="nav-links">
+            <a href="computer.html" class="nav-btn">3D Model</a>
+            <a href="index.html" class="nav-btn">About</a>
+            <a href="#contact" class="nav-btn">Contact</a>
+        </div>
+    </div>
+
+    <div class="main">
+        <section class="thinkpad-info">
+            <model-viewer class="view"
+            alt="laptop model" 
+            src="images/glb/laptop final.glb" 
+            shadow-intensity="2" 
+            camera-controls touch-action="pan-y">
+                <button class="hotspot" slot="hotspot-red" data-position="0.20 0.06 0.055"></button> <!--Disk lazer -->
+                
+                <button class="hotspot" slot="hotspot-blue" data-position="0.08 0.30 -0.15"></button> <!--screen -->
+                
+                <button class="hotspot" slot="hotspot-yellow" data-position="0 0.15 0.03"></button> <!--piss clicker -->
+
+                <button class="hotspot" slot="hotspot-pink" data-position="-0.20 0.052 0.183"></button> <!--Sold State Drive -->
+
+                <button class="hotspot" slot="hotspot-white" data-position="0 0.12 0.10"></button> <!--piss clicker -->
+                </button>
+            </model-viewer>
+        </section>
+    </div>
+</body>
+</html>

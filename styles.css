@@ -1,8 +1,12 @@
 
-html, body {
-	height: 85%;
+html {
 	margin: 0;
 	padding: 0;
+	width: auto;
+	height: auto;
+}
+
+body {
 	font-family: Arial, sans-serif;
 }
 
@@ -10,7 +14,7 @@ html, body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px 20px;
+	padding: 5px 15px;
 	color: white;
 }
 
@@ -41,10 +45,8 @@ p {
 }
 
 .main {
-	min-height: 100%;
 	display: flex;
 	flex-direction: column;
-	padding: 2%;
 }
 
 .image {
@@ -85,9 +87,34 @@ p {
     pointer-events: none;
 }
 
-.hotspot[slot="hotspot-hand"]{
+.hotspot[slot="hotspot-red"]{
     background-color: red;
 }
+
+.hotspot[slot="hotspot-pink"]{
+    background-color: hotpink;
+}
+
+.hotspot[slot="hotspot-yellow"]{
+    background-color: yellow;
+}
+
+.hotspot[slot="hotspot-green"]{
+    background-color: green;
+}
+
+.hotspot[slot="hotspot-green-yellow"]{
+    background-color: greenyellow;
+}
+
+.hotspot[slot="hotspot-blue"]{
+    background-color: blue;
+}
+
+.hotspot[slot="hotspot-white"]{
+    background-color: whitesmoke;
+}
+
 
 .hotspot[slot="hotspot-foot"]:not([data-visible]) {
     background-color: transparent;
